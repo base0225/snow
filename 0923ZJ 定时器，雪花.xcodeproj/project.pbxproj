@@ -14,6 +14,7 @@
 		4B4B5F5B1BB2CA870084BEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B5F5A1BB2CA870084BEB2 /* Images.xcassets */; };
 		4B4B5F5E1BB2CA870084BEB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B5F5C1BB2CA870084BEB2 /* LaunchScreen.xib */; };
 		4B4B5F6A1BB2CA870084BEB2 /* _923ZJ_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B5F691BB2CA870084BEB2 /* _923ZJ_______Tests.m */; };
+		4B4B5F751BB2CB860084BEB2 /* ZJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B5F741BB2CB860084BEB2 /* ZJView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4B4B5F631BB2CA870084BEB2 /* 0923ZJ 定时器，雪花Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0923ZJ 定时器，雪花Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4B5F681BB2CA870084BEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4B5F691BB2CA870084BEB2 /* _923ZJ_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_923ZJ_______Tests.m"; sourceTree = "<group>"; };
+		4B4B5F731BB2CB860084BEB2 /* ZJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJView.h; sourceTree = "<group>"; };
+		4B4B5F741BB2CB860084BEB2 /* ZJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				4B4B5F541BB2CA870084BEB2 /* ViewController.h */,
 				4B4B5F551BB2CA870084BEB2 /* ViewController.m */,
 				4B4B5F571BB2CA870084BEB2 /* Main.storyboard */,
+				4B4B5F731BB2CB860084BEB2 /* ZJView.h */,
+				4B4B5F741BB2CB860084BEB2 /* ZJView.m */,
 				4B4B5F5A1BB2CA870084BEB2 /* Images.xcassets */,
 				4B4B5F5C1BB2CA870084BEB2 /* LaunchScreen.xib */,
 				4B4B5F4D1BB2CA860084BEB2 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				4B4B5F561BB2CA870084BEB2 /* ViewController.m in Sources */,
 				4B4B5F531BB2CA870084BEB2 /* AppDelegate.m in Sources */,
+				4B4B5F751BB2CB860084BEB2 /* ZJView.m in Sources */,
 				4B4B5F501BB2CA860084BEB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
